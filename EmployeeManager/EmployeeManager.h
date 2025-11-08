@@ -43,7 +43,7 @@ typedef struct {
 	USHORT id;		//부서 코드
 	char name[PART_NAME];	//부서명
 } PART;
-
+// 뭔가 변경
 typedef struct {
 	USHORT id;					// 사원 코드
 	char    name[EMPL_NAME];	// 사원명 
