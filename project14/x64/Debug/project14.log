@@ -1,0 +1,13 @@
+﻿  project14.cpp
+C:\Users\김영윤\Documents\C\C_1026\project1\project14\project14.cpp(34,12): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+      C:\Users\김영윤\Documents\C\C_1026\project1\project14\project14.cpp(34,12):
+      서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  
+C:\Users\김영윤\Documents\C\C_1026\project1\project14\project14.cpp(95,12): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+      C:\Users\김영윤\Documents\C\C_1026\project1\project14\project14.cpp(95,12):
+      서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  
+C:\Users\김영윤\Documents\C\C_1026\project1\project14\project14.cpp(112,12): error C2371: 'p': 재정의. 기본 형식이 다릅니다.
+      C:\Users\김영윤\Documents\C\C_1026\project1\project14\project14.cpp(78,10):
+      'p' 선언을 참조하십시오.
+  

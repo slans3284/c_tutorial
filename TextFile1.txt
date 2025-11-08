@@ -1,0 +1,3 @@
+BOF - Begin Of File
+contents
+EOF - End Of File

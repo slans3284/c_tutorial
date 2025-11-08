@@ -1,0 +1,29 @@
+﻿  project15.cpp
+C:\Users\김영윤\Documents\C\C_1026\project1\project15\project15.cpp(78,11): warning C4477: 'scanf' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'char *'입니다.
+      C:\Users\김영윤\Documents\C\C_1026\project1\project15\project15.cpp(78,11):
+      서식 문자열에서 '%hhd'을(를) 사용하는 것이 좋습니다.
+  
+C:\Users\김영윤\Documents\C\C_1026\project1\project15\project15.cpp(81,11): warning C4477: 'scanf' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'char *'입니다.
+      C:\Users\김영윤\Documents\C\C_1026\project1\project15\project15.cpp(81,11):
+      서식 문자열에서 '%hhd'을(를) 사용하는 것이 좋습니다.
+  
+C:\Users\김영윤\Documents\C\C_1026\project1\project15\project15.cpp(88,12): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\김영윤\Documents\C\C_1026\project1\project15\project15.cpp(92,11): warning C4477: 'scanf' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'char *'입니다.
+      C:\Users\김영윤\Documents\C\C_1026\project1\project15\project15.cpp(92,11):
+      서식 문자열에서 '%hhd'을(를) 사용하는 것이 좋습니다.
+  
+C:\Users\김영윤\Documents\C\C_1026\project1\project15\project15.cpp(111,11): warning C4477: 'scanf' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'char *'입니다.
+      C:\Users\김영윤\Documents\C\C_1026\project1\project15\project15.cpp(111,11):
+      서식 문자열에서 '%hhd'을(를) 사용하는 것이 좋습니다.
+  
+C:\Users\김영윤\Documents\C\C_1026\project1\project15\project15.cpp(114,11): warning C4477: 'scanf' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'char *'입니다.
+      C:\Users\김영윤\Documents\C\C_1026\project1\project15\project15.cpp(114,11):
+      서식 문자열에서 '%hhd'을(를) 사용하는 것이 좋습니다.
+  
+C:\Users\김영윤\Documents\C\C_1026\project1\project15\project15.cpp(121,13): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\김영윤\Documents\C\C_1026\project1\project15\project15.cpp(125,11): warning C4477: 'scanf' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'char *'입니다.
+      C:\Users\김영윤\Documents\C\C_1026\project1\project15\project15.cpp(125,11):
+      서식 문자열에서 '%hhd'을(를) 사용하는 것이 좋습니다.
+  
+C:\Users\김영윤\Documents\C\C_1026\project1\project15\project15.cpp(270,10): warning C4101: 'ids' :참조되지 않은 지역 변수입니다.
+  project15.vcxproj -> C:\Users\김영윤\Documents\C\C_1026\project1\x64\Debug\project15.exe

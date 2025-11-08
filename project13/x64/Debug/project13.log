@@ -1,0 +1,5 @@
+﻿  project13.cpp
+C:\Users\김영윤\Documents\C\C_1026\project1\project13\project13.cpp(78,7): warning C4101: 'n' :참조되지 않은 지역 변수입니다.
+C:\Users\김영윤\Documents\C\C_1026\project1\project13\project13.cpp(141,12): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  LINK : C:\Users\김영윤\Documents\C\C_1026\project1\x64\Debug\project13.exe을(를) 찾을 수 없거나 마지막 증분 링크에 의해 빌드되지 않았습니다. 전체 링크를 수행하고 있습니다.
+  project13.vcxproj -> C:\Users\김영윤\Documents\C\C_1026\project1\x64\Debug\project13.exe

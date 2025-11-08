@@ -1,0 +1,4 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\김영윤\Documents\C\C_1026\project1\ConsoleApplication1\ConsoleApplication1.cpp(103,12): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  LINK : C:\Users\김영윤\Documents\C\C_1026\project1\x64\Debug\ConsoleApplication1.exe을(를) 찾을 수 없거나 마지막 증분 링크에 의해 빌드되지 않았습니다. 전체 링크를 수행하고 있습니다.
+  ConsoleApplication1.vcxproj -> C:\Users\김영윤\Documents\C\C_1026\project1\x64\Debug\ConsoleApplication1.exe
