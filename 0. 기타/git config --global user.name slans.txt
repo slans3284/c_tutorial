@@ -1,0 +1,26 @@
+0.
+git config --global user.name "slans3284"
+git config --global user.email "slans3284@gmail.com"
+
+https://github.com/slans3284/c_tutorial.git
+
+1. 
+.gitignore 작성 : 무시할 파일들 추가
+
+2. git add . : 관리대상에 .gitignore에 설정된 거 빼고 모두 포함시킴
+
+3. git commit -m "First Commit"	 "ing:feat:업데이트 기능 수정중"
+
+4. git remote add origin https://github.com/slans231-hash/c_tutorial.git
+
+				(원격주소)
+5. git push origin main
+
+6. git clone 원격주소
+
+
+집에서는
+
+설치하고 0 하고
+
+git clone https://github.com/slans231-hash/c_tutorial.git

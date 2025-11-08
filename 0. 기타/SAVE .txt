@@ -1,0 +1,8 @@
+DISK<-(SAVE) (LOAD)->Memory(Random Access Memory)<- ->CPU
+
+
+파일을 연다(sv, ld) -> file open
+
+read or write from file
+
+반드시 파일을 닫는다.
