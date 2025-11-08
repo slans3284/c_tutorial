@@ -17,7 +17,7 @@ size_t input_rank(RANK** ppRank, size_t old_count)
 
 	RANK* pNew = (RANK*)malloc(alloc_bytes);
 	if (!pNew) return old_count;	//할당 실패이므로 기존 개수를 반환
-	
+
 	RANK tmp;	// 입력값을 임시 저장할 지역 변수 
 	printf("직급 코드를 입력하세요 : ");
 	scanf("%hd", &tmp.id);
@@ -36,7 +36,7 @@ size_t input_rank(RANK** ppRank, size_t old_count)
 	}
 
 	// 입력받은 데이터를 새배열 마지막에 복사 
-	memcpy(pNew + old_count, &tmp, sizeof(RANK));	
+	memcpy(pNew + old_count, &tmp, sizeof(RANK));
 
 	// 정리 작업
 	if (pRank)
@@ -68,7 +68,7 @@ int update_rank(RANK* pRank, size_t count)
 
 	// 입력받은 코드를 이용하여 해당 배열에서 데이터의 인덱스를 구한다
 
-	int idx = find_rank(pRank,count,code);
+	int idx = find_rank(pRank, count, code);
 	if (idx < 0)
 	{
 		printf("직급 코드를 찾을 수 없습니다");
@@ -147,7 +147,7 @@ int find_rank(RANK* pRank, size_t count, USHORT code)
 	for (int i = 0; i < count; i++)
 	{
 		if (pRank[i].id == code)
-		return i;
+			return i;
 	}
 	return -1;
 }
@@ -164,7 +164,7 @@ void print_rank(const RANK* pRank, const size_t count)
 
 
 	// 데이터 출력
-	for (int i = 0; i<count; i++)
+	for (int i = 0; i < count; i++)
 	{
 		printf("%8d  %s\n", pRank[i].id, pRank[i].name);
 	}
@@ -201,14 +201,14 @@ size_t load_rank(RANK** ppRank)
 	if (!fp)
 	{
 		printf("직급 정보를 불러올 수 없습니다");
-		return 0 ;
+		return 0;
 	}
 
 	fseek(fp, 0, SEEK_END);	// EOF 지점으로 보냄
 	long size = ftell(fp);	// 파일 크기를 구함
 	fseek(fp, 0, SEEK_SET);	// BOF 지점으로 돌려놈
 
-	RANK* pTemp =(RANK*)malloc(size);
+	RANK* pTemp = (RANK*)malloc(size);
 	if (!pTemp)
 	{
 		fclose(fp);
@@ -453,6 +453,7 @@ int find_part(PART* pPart, size_t count, USHORT code)
 size_t input_employee(EMPLOYEE** ppEmp, size_t count_emp,
 	const PART* pPart, size_t count_part,
 	const RANK* pRank, size_t count_rank)
+
 {
 	assert(ppEmp);
 
@@ -471,7 +472,7 @@ size_t input_employee(EMPLOYEE** ppEmp, size_t count_emp,
 	emp.name[strlen(emp.name) - 1] = 0; // \n을 \0으로 바꿔서 줄바꿈을 방지함
 
 	print_part(pPart, count_part);
-	printf("부서를 입력하세요 >>> ");
+	printf("부서 코드를 입력하세요 >>> ");
 	scanf("%hd", &emp.part);
 
 	print_rank(pRank, count_rank);
@@ -486,7 +487,7 @@ size_t input_employee(EMPLOYEE** ppEmp, size_t count_emp,
 	EMPLOYEE* pNewEmp = (EMPLOYEE*)malloc(new_bytes);
 	if (!pNewEmp)
 	{
-		printf("메몸리 할당 실패!\n");
+		printf("메모리 할당 실패!\n");
 		return count_emp;
 	}
 
@@ -526,7 +527,7 @@ const char* get_part_name(const PART* pPart, size_t count_part, USHORT part_id)
 	return NULL;
 }
 
-const char* get_rank_name(const PART* pRank, size_t count_rank, USHORT rank_id)
+const char* get_rank_name(const RANK* pRank, size_t count_rank, USHORT rank_id)
 {
 	for (int i = 0; i < count_rank; i++)
 	{
@@ -553,7 +554,7 @@ void print_employee(const EMPLOYEE* pEmp, size_t count_emp,
 	{
 		const char* pPartName = get_part_name(pPart, count_part, pEmp[i].part);
 		const char* pRankName = get_rank_name(pRank, count_rank, pEmp[i].rank);
-		printf("%8d  %s\t%s\t%s\n", pEmp[i].id, pEmp[i].name,pPartName, pRankName);
+		printf("%8d  %s\t%s\t%s\n", pEmp[i].id, pEmp[i].name, pPartName, pRankName);
 	}
 }
 void save_employee(const EMPLOYEE* pEmp, size_t count_emp)
@@ -568,77 +569,79 @@ void save_employee(const EMPLOYEE* pEmp, size_t count_emp)
 	}
 	fwrite(pEmp, sizeof(EMPLOYEE), count_emp, fp);
 
-
 	fclose(fp);
 }
-	size_t load_employee(EMPLOYEE** ppEmp)
+
+size_t load_employee(EMPLOYEE** ppEmp)
+{
+	assert(ppEmp);
+
+	FILE* fp = NULL;
+	fp = fopen(EMPL_FILE, "r");
+	if (!fp) return 0;
+
+	fseek(fp, 0, SEEK_END);
+	long size = ftell(fp);
+	fseek(fp, 0, SEEK_SET);
+
+	size_t count = size / sizeof(EMPLOYEE);
+	EMPLOYEE* pEmp = (EMPLOYEE*)malloc(size);
+	if (pEmp)
 	{
-		assert(ppEmp);
-
-		FILE* fp = NULL;
-		fp = fopen(EMPL_FILE, "r");
-		if (!fp) return 0;
-
-		fseek(fp, 0, SEEK_END);
-		long size = ftell(fp);
-		fseek(fp, 0, SEEK_SET);
-
-		size_t count = size / sizeof(EMPLOYEE);
-		EMPLOYEE* pEmp = (EMPLOYEE*)malloc(size);
-		if (!pEmp)
-		{
-			fread(pEmp, sizeof(EMPLOYEE), count, fp);
-			
-		}
-
-		*ppEmp = pEmp;
-
-		fclose(fp);
-		return count;
+		fread(pEmp, sizeof(EMPLOYEE), count, fp);
 	}
 
-	int find_employee(const EMPLOYEE* pEmp,const size_t count_emp, const int id);
+	*ppEmp = pEmp;
+	fclose(fp);
+
+	return count;
+}
+
+int find_employee(const EMPLOYEE* pEmp, const size_t count_emp, const int id)
+{
+	for (int i = 0; i < count_emp; i++)
 	{
-		for (int i = 0; i < count_emp; i++)
-		{
-			if(pEmp[i].id==)
-		}
+		if (pEmp[i].id == id)
+			return i;
+	}
+	return -1;
+}
+
+int update_employee(EMPLOYEE* pEmp, size_t count_emp,
+	const PART* pPart, size_t count_part,
+	const RANK* pRank, size_t count_rank)
+{
+	print_employee(pEmp, count_emp, pPart, count_part, pRank, count_rank);
+
+	printf("=======================================\n");
+	printf("수정할 사원 코드를 입력하세요 >>> ");
+
+	USHORT id;
+	scanf("%hd", &id);
+
+	int idx = find_employee(pEmp, count_emp, id);
+	if (idx < 0)
+	{
+		printf("해당 id를 찾을 수 없습니다.\n");
+		return -1;
 	}
 
-	int update_employee(EMPLOYEE* pEmp, size_t count_emp,
-		const PART* pPart, size_t count_part,
-		const RANK* pRank, size_t count_rank)
-	{
-		print_employee(pEmp, count_emp, pPart, count_part, pRank, count_rank);
+	char ch;
+	scanf("%c", &ch);
 
-		printf("=======================================\n");
-		printf("수정할 사원 코드를 입력하세요 >>> ");
+	printf("사원명을 입력하세요 >>>");
+	fgets(pEmp[idx].name, EMPL_NAME, stdin);
+	pEmp[idx].name[strlen(pEmp[idx].name) - 1] = 0;
 
-		USHORT id;
-		scanf("%hd", id);
-		int idx = find_employee(pEmp, count_emp, id);
-		if (idx < 0)
-		{
-			printf("해당 id를 찾을 수 없습니다.\n");
-			return -1;
-		}
-		char ch;
-		scanf("%c", &ch);
+	print_part(pPart, count_part);
+	printf("변경할 부서 코드를 입력하세요 >>> ");
+	scanf("%hd", &pEmp[idx].part);
 
-		printf("사원명을 입력하세요 >>>");
-		fgets(pEmp[idx].name, EMPL_NAME, stdin);
-		pEmp[idx].name[strlen(pEmp[idx].name) - 1] = 0;
+	print_rank(pRank, count_rank);
+	printf("변경할 직급 코드를 입력하세요 >>> ");
+	scanf("%hd", &pEmp[idx].rank);
 
-		print_part(pPart, count_part);
-		printf("변경할 부서 코드를 입력하세요 >>> ");
-		scanf("%hd", &pEmp[idx].part);
-
-		print_rank(pRank, count_rank);
-		printf("변경할 직급 코드를 입력하세요 >>> ");
-		scanf("%hd", &pEmp[idx].rank);
-
-		return idx;
-	}
-
+	return idx;
+}
 
 

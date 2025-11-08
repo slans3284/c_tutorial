@@ -1,4 +1,4 @@
- #pragma once
+#pragma once
 
 //전처리문
 //#ifndef __abc__	// if not define __abc__  --> __abc__ 라는게 정의되어 있지 않다면... 
@@ -55,7 +55,7 @@ typedef struct {
 typedef struct {
 	PART* pPart;
 	size_t count_part;
-	
+
 	RANK* pRank;
 	size_t count_rank;
 }PART_RANK;
@@ -63,10 +63,10 @@ typedef struct {
 // 함수들의 원형 정의
 
 // 직급 정보 입력 함수
-size_t input_rank(RANK** ppRank,size_t old_count);
+size_t input_rank(RANK** ppRank, size_t old_count);
 int update_rank(RANK* pRank, size_t count);
 size_t delete_rank(RANK** ppRank, size_t old_count);
-void print_rank(const RANK* pRank,const size_t count);
+void print_rank(const RANK* pRank, const size_t count);
 void save_rank(const RANK* pRank, const size_t count);
 size_t load_rank(RANK** ppRank);
 int find_rank(RANK* pRank, size_t count, USHORT code);
@@ -85,9 +85,9 @@ const char* get_part_name(const PART* pPart, size_t count_part, USHORT part_id);
 const char* get_rank_name(const RANK* pRank, size_t count_rank, USHORT rank_id);
 
 
-size_t input_employee(const EMPLOYEE** ppEmp, size_t count_emp, 
-	                  const PART* pPart,size_t count_part, 
-	                 const RANK* pRank, size_t count_rank);
+size_t input_employee(EMPLOYEE** ppEmp, size_t count_emp,
+	const PART* pPart, size_t count_part,
+	const RANK* pRank, size_t count_rank);
 
 void print_employee(const EMPLOYEE* pEmp, size_t count_emp,
 	const PART* pPart, size_t count_part,
@@ -96,9 +96,8 @@ void print_employee(const EMPLOYEE* pEmp, size_t count_emp,
 int find_employee(const EMPLOYEE* pEmp, const size_t count_emp, const int id);
 
 void save_employee(const EMPLOYEE* pEmp, size_t count_emp);
-
 size_t load_employee(EMPLOYEE** ppEmp);
-int update_employee(EMPLOYEE** pEmp, size_t count_emp,
+int update_employee(EMPLOYEE* pEmp, size_t count_emp,
 	const PART* pPart, size_t count_part,
 	const RANK* pRank, size_t count_rank);
 

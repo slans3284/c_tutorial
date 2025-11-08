@@ -1,14 +1,5 @@
 ﻿  EmployeeFunctions.cpp
   EmployeeManager.cpp
-C:\Users\김영윤\Documents\C\C_1102\project1\EmployeeManager\EmployeeFunctions.cpp(555,27): error C2664: 'const char *get_rank_name(const PART *,size_t,USHORT)': 인수 1을(를) 'const RANK *'에서 'const PART *'(으)로 변환할 수 없습니다.
-      C:\Users\김영윤\Documents\C\C_1102\project1\EmployeeManager\EmployeeFunctions.cpp(555,41):
-      가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 괄호가 있는 함수 스타일 캐스트가 필요합니다.
-      C:\Users\김영윤\Documents\C\C_1102\project1\EmployeeManager\EmployeeFunctions.cpp(529,13):
-      'get_rank_name' 선언을 참조하십시오.
-      C:\Users\김영윤\Documents\C\C_1102\project1\EmployeeManager\EmployeeFunctions.cpp(555,27):
-      인수 목록 '(const RANK *, size_t, const USHORT)'을(를) 일치시키는 동안
-  
-C:\Users\김영윤\Documents\C\C_1102\project1\EmployeeManager\EmployeeManager.cpp(66,31): error C2065: 'pEmp': 선언되지 않은 식별자입니다.
-C:\Users\김영윤\Documents\C\C_1102\project1\EmployeeManager\EmployeeManager.cpp(67,17): error C2065: 'pEmp': 선언되지 않은 식별자입니다.
-C:\Users\김영윤\Documents\C\C_1102\project1\EmployeeManager\EmployeeManager.cpp(68,21): error C2065: 'pEmp': 선언되지 않은 식별자입니다.
   코드를 생성하고 있습니다...
+  LINK : C:\Users\김영윤\Documents\C_GIT3\c_tutorial\x64\Debug\EmployeeManager.exe을(를) 찾을 수 없거나 마지막 증분 링크에 의해 빌드되지 않았습니다. 전체 링크를 수행하고 있습니다.
+  EmployeeManager.vcxproj -> C:\Users\김영윤\Documents\C_GIT3\c_tutorial\x64\Debug\EmployeeManager.exe

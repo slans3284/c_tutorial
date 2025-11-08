@@ -41,15 +41,15 @@ int main()
 {
 	RANK* pRank = NULL;	// RANK 구조체 항목을 구성요소로 갖는 배열
 	size_t count_rank = 0;
-	
+
 	PART* pPart = NULL;	// PART 구조체 항목을 구성요소로 갖는 배열
 	size_t count_part = 0;
 
-	EMPLOYEE* PEmp = NULL;
+	EMPLOYEE* pEmp = NULL;
 	size_t count_emp = 0;
 
 
-	PART_RANK info;
+
 	//저장되어 있는 직급 데이터를 불러옴
 	count_rank = load_rank(&pRank);
 	count_part = load_part(&pPart);
@@ -63,17 +63,15 @@ int main()
 		switch (ch)
 		{
 		case '1': // 사원 정보 입력 기능 수행
-		count_emp = input_employee(&pEmp, count_emp, pPart,count_part,count_rank);
-		save_employee(pEmp, count_emp);
-		print_employee(pEmp, count_emp, pPart, count_part, pRank, count_rank);
-
-		
+			count_emp = input_employee(&pEmp, count_emp, pPart, count_part, pRank, count_rank);
+			save_employee(pEmp, count_emp);
+			print_employee(pEmp, count_emp, pPart, count_part, pRank, count_rank);
 			break;
 
 		case '2': // 사원 정보 출력
 			print_employee(pEmp, count_emp, pPart, count_part, pRank, count_rank);
 			break;
-		case '3' : // 사원 정보 수정
+		case '3': // 사원 정보 수정
 			update_employee(pEmp, count_emp, pPart, count_part, pRank, count_rank);
 			save_employee(pEmp, count_emp);
 			print_employee(pEmp, count_emp, pPart, count_part, pRank, count_rank);
@@ -117,22 +115,16 @@ int main()
 			print_part(pPart, count_part);
 			break;
 		}
-		
+
 		wait();
 
-	} while (ch !='x');
+	} while (ch != 'x');
 
 	// Heap 메모리 해제
 	if (pRank)
 	{
 		free(pRank);
 		pRank = NULL;
-	}
-
-	if (pPart)
-	{
-		free(pPart);
-		pPart = NULL;
 	}
 
 	if (pPart)
