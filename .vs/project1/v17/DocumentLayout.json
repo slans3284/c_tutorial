@@ -1,18 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\\uAE40\uC601\uC724\\Documents\\C_GIT3\\c_tutorial\\",
+  "WorkspaceRootPath": "C:\\Users\\\uAE40\uC601\uC724\\Documents\\C_GIT\\c_tutorial\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0E61E5AE-ECE9-4F77-8DED-00A601AB64E7}|EmployeeManager\\EmployeeManager.vcxproj|C:\\Users\\\uAE40\uC601\uC724\\Documents\\C_GIT3\\c_tutorial\\EmployeeManager\\EmployeeManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0E61E5AE-ECE9-4F77-8DED-00A601AB64E7}|EmployeeManager\\EmployeeManager.vcxproj|solutionrelative:EmployeeManager\\EmployeeManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{CA09D910-AFA3-455A-B7CD-069416700C0A}|project13\\project13.vcxproj|C:\\Users\\\uAE40\uC601\uC724\\Documents\\C_GIT\\c_tutorial\\project13\\project13.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CA09D910-AFA3-455A-B7CD-069416700C0A}|project13\\project13.vcxproj|solutionrelative:project13\\project13.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E61E5AE-ECE9-4F77-8DED-00A601AB64E7}|EmployeeManager\\EmployeeManager.vcxproj|C:\\Users\\\uAE40\uC601\uC724\\Documents\\C_GIT3\\c_tutorial\\EmployeeManager\\EmployeeManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0E61E5AE-ECE9-4F77-8DED-00A601AB64E7}|EmployeeManager\\EmployeeManager.vcxproj|solutionrelative:EmployeeManager\\EmployeeManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{42ECB39A-A45B-40FA-AB18-CD06CD14926A}|project14\\project14.vcxproj|C:\\Users\\\uAE40\uC601\uC724\\Documents\\C_GIT\\c_tutorial\\project14\\project14.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{42ECB39A-A45B-40FA-AB18-CD06CD14926A}|project14\\project14.vcxproj|solutionrelative:project14\\project14.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E61E5AE-ECE9-4F77-8DED-00A601AB64E7}|EmployeeManager\\EmployeeManager.vcxproj|C:\\Users\\\uAE40\uC601\uC724\\Documents\\C_GIT3\\c_tutorial\\EmployeeManager\\EmployeeFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0E61E5AE-ECE9-4F77-8DED-00A601AB64E7}|EmployeeManager\\EmployeeManager.vcxproj|solutionrelative:EmployeeManager\\EmployeeFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{2DA5B910-B5EE-4F3D-9D5C-4D00D86D2AE1}|project15\\project15.vcxproj|C:\\Users\\\uAE40\uC601\uC724\\Documents\\C_GIT\\c_tutorial\\project15\\project15.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2DA5B910-B5EE-4F3D-9D5C-4D00D86D2AE1}|project15\\project15.vcxproj|solutionrelative:project15\\project15.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9294890F-9C12-43C7-B700-5AAD0634A62B}|WinApp1\\WinApp1.vcxproj|C:\\Users\\\uAE40\uC601\uC724\\Documents\\C_GIT\\c_tutorial\\WinApp1\\WinApp1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9294890F-9C12-43C7-B700-5AAD0634A62B}|WinApp1\\WinApp1.vcxproj|solutionrelative:WinApp1\\WinApp1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9294890F-9C12-43C7-B700-5AAD0634A62B}|WinApp1\\WinApp1.vcxproj|C:\\Users\\\uAE40\uC601\uC724\\Documents\\C_GIT\\c_tutorial\\WinApp1\\WinApp1.rc||{177559E0-D141-11D0-92DF-00A0C9138C45}|,   b e g i n       ) \u008D 2$  \u0022     ",
+      "RelativeMoniker": "D:0:0:{9294890F-9C12-43C7-B700-5AAD0634A62B}|WinApp1\\WinApp1.vcxproj|solutionrelative:WinApp1\\WinApp1.rc||{177559E0-D141-11D0-92DF-00A0C9138C45}|,   b e g i n       ) \u008D 2$  \u0022     "
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9294890F-9C12-43C7-B700-5AAD0634A62B}|WinApp1\\WinApp1.vcxproj|C:\\Users\\\uAE40\uC601\uC724\\Documents\\C_GIT\\c_tutorial\\WinApp1\\framework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9294890F-9C12-43C7-B700-5AAD0634A62B}|WinApp1\\WinApp1.vcxproj|solutionrelative:WinApp1\\framework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 319,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,41 +42,79 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EmployeeManager.h",
-              "DocumentMoniker": "C:\\Users\\\uAE40\uC601\uC724\\Documents\\C_GIT3\\c_tutorial\\EmployeeManager\\EmployeeManager.h",
-              "RelativeDocumentMoniker": "EmployeeManager\\EmployeeManager.h",
-              "ToolTip": "C:\\Users\\\uAE40\uC601\uC724\\Documents\\C_GIT3\\c_tutorial\\EmployeeManager\\EmployeeManager.h",
-              "RelativeToolTip": "EmployeeManager\\EmployeeManager.h",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAQwGkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-01T04:11:52.768Z",
+              "DocumentIndex": 3,
+              "Title": "WinApp1.cpp",
+              "DocumentMoniker": "C:\\Users\\\uAE40\uC601\uC724\\Documents\\C_GIT\\c_tutorial\\WinApp1\\WinApp1.cpp",
+              "RelativeDocumentMoniker": "WinApp1\\WinApp1.cpp",
+              "ToolTip": "C:\\Users\\\uAE40\uC601\uC724\\Documents\\C_GIT\\c_tutorial\\WinApp1\\WinApp1.cpp",
+              "RelativeToolTip": "WinApp1\\WinApp1.cpp",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAABoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-09T04:09:47.14Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EmployeeManager.cpp",
-              "DocumentMoniker": "C:\\Users\\\uAE40\uC601\uC724\\Documents\\C_GIT3\\c_tutorial\\EmployeeManager\\EmployeeManager.cpp",
-              "RelativeDocumentMoniker": "EmployeeManager\\EmployeeManager.cpp",
-              "ToolTip": "C:\\Users\\\uAE40\uC601\uC724\\Documents\\C_GIT3\\c_tutorial\\EmployeeManager\\EmployeeManager.cpp",
-              "RelativeToolTip": "EmployeeManager\\EmployeeManager.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-01T04:10:18.124Z",
+              "DocumentIndex": 4,
+              "Title": "WinApp1.rc - IDC_WINAPP1 - Accelerator",
+              "DocumentMoniker": "C:\\Users\\\uAE40\uC601\uC724\\Documents\\C_GIT\\c_tutorial\\WinApp1\\WinApp1.rc",
+              "RelativeDocumentMoniker": "WinApp1\\WinApp1.rc",
+              "ToolTip": "C:\\Users\\\uAE40\uC601\uC724\\Documents\\C_GIT\\c_tutorial\\WinApp1\\WinApp1.rc - IDC_WINAPP1 - Accelerator",
+              "RelativeToolTip": "WinApp1\\WinApp1.rc - IDC_WINAPP1 - Accelerator",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-11-09T04:53:14.555Z",
+              "EditorCaption": " - IDC_WINAPP1 - Accelerator"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "framework.h",
+              "DocumentMoniker": "C:\\Users\\\uAE40\uC601\uC724\\Documents\\C_GIT\\c_tutorial\\WinApp1\\framework.h",
+              "RelativeDocumentMoniker": "WinApp1\\framework.h",
+              "ToolTip": "C:\\Users\\\uAE40\uC601\uC724\\Documents\\C_GIT\\c_tutorial\\WinApp1\\framework.h",
+              "RelativeToolTip": "WinApp1\\framework.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-09T06:53:54.004Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "EmployeeFunctions.cpp",
-              "DocumentMoniker": "C:\\Users\\\uAE40\uC601\uC724\\Documents\\C_GIT3\\c_tutorial\\EmployeeManager\\EmployeeFunctions.cpp",
-              "RelativeDocumentMoniker": "EmployeeManager\\EmployeeFunctions.cpp",
-              "ToolTip": "C:\\Users\\\uAE40\uC601\uC724\\Documents\\C_GIT3\\c_tutorial\\EmployeeManager\\EmployeeFunctions.cpp",
-              "RelativeToolTip": "EmployeeManager\\EmployeeFunctions.cpp",
-              "ViewState": "AgIAAGECAAAAAAAAAAAQwIcCAAAAAAAAAAAAAA==",
+              "Title": "project15.cpp",
+              "DocumentMoniker": "C:\\Users\\\uAE40\uC601\uC724\\Documents\\C_GIT\\c_tutorial\\project15\\project15.cpp",
+              "RelativeDocumentMoniker": "project15\\project15.cpp",
+              "ToolTip": "C:\\Users\\\uAE40\uC601\uC724\\Documents\\C_GIT\\c_tutorial\\project15\\project15.cpp",
+              "RelativeToolTip": "project15\\project15.cpp",
+              "ViewState": "AgIAAPMAAAAAAAAAAAAAABgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-01T04:40:28.69Z",
+              "WhenOpened": "2025-11-15T12:34:14.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "project14.cpp",
+              "DocumentMoniker": "C:\\Users\\\uAE40\uC601\uC724\\Documents\\C_GIT\\c_tutorial\\project14\\project14.cpp",
+              "RelativeDocumentMoniker": "project14\\project14.cpp",
+              "ToolTip": "C:\\Users\\\uAE40\uC601\uC724\\Documents\\C_GIT\\c_tutorial\\project14\\project14.cpp",
+              "RelativeToolTip": "project14\\project14.cpp",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAABgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-15T12:34:27.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "project13.cpp",
+              "DocumentMoniker": "C:\\Users\\\uAE40\uC601\uC724\\Documents\\C_GIT\\c_tutorial\\project13\\project13.cpp",
+              "RelativeDocumentMoniker": "project13\\project13.cpp",
+              "ToolTip": "C:\\Users\\\uAE40\uC601\uC724\\Documents\\C_GIT\\c_tutorial\\project13\\project13.cpp",
+              "RelativeToolTip": "project13\\project13.cpp",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-15T12:36:08.84Z",
               "EditorCaption": ""
             }
           ]
